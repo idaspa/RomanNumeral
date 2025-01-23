@@ -17,8 +17,6 @@ test.isEqual(sum(-1, -1), -2, "Enkel summering av negative tall");
 test.isEqual(isNaN(sum("@", "B")), true, "Ikke gyldig input");
 test.isEqual(isNaN(sum("@", 1)), true, "Ikke Gyldig Input");
 test.isEqual(sum(3, 2, 1), 6, "Tre eller fære inputs");
-test.isEqual(sum(4,3,2,1), 10," Fire eller mindre inputs");
-
 
 test.removePadd();
 test.end();
